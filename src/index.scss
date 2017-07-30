@@ -1,0 +1,56 @@
+/**
+ * Button of milkui-component
+ * @author caiyongmin
+ *
+ * Copyright 2017-2019, All rights reserved.
+ */
+
+@import "~milkui-style-base/product.scss";
+
+.milkui-button {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  height: $button-height;
+  border: 0;
+  border-radius: $button-border-radius;
+  font-size: $button-font-size;
+  color: inherit;
+  outline: 0;
+  overflow: hidden;
+  appearance: 0;
+}
+
+.milkui-button_default {
+  color: $button-default-color;
+  background-color: $button-default-background-color;
+  box-shadow: $button-default-box-shadow;
+}
+
+.milkui-button_primary {
+  color: $button-primary-color;
+  background-color: $button-primary-background-color;
+}
+
+.milkui-button_danger {
+  color: $button-danger-color;
+  background-color: $button-danger-background-color;
+}
+
+.milkui-button_small {
+  display: inline-flex;
+  height: $button-height-sm;
+  padding: 0 $button-h-padding;
+  font-size: $button-font-size-sm;
+}
+
+.milkui-button_normal {
+  display: inline-flex;
+  padding: 0 $button-h-padding;
+}
+
+.milkui-button_large {
+  width: 100%;
+}
