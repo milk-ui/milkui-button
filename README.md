@@ -1,5 +1,9 @@
 # milkui-button
 
+[![npm version](https://img.shields.io/npm/v/milkui-button.svg?style=flat)](https://www.npmjs.com/package/milkui-button) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](README.md)
+
+[![NPM](https://nodei.co/npm/milkui-button.png?downloads=true&downloadRank=true)](https://nodei.co/npm/milkui-button/)
+
 > 按钮
 
 ## Overview
